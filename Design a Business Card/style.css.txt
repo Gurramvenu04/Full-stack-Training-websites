@@ -1,0 +1,39 @@
+/* General styles */
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Business card styling */
+.business-card {
+  width: 300px;
+  background-color: white; /* You can choose another color */
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Profile image */
+.profile-image {
+  max-width: 100%;
+}
+
+/* Social media section */
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media a {
+  display: block;
+  margin-top: 5px;
+}

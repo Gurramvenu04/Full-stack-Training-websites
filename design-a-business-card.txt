@@ -1,0 +1,87 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Business Card</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="business-card">
+    <img
+      class="profile-image"
+      src="https://cdn.freecodecamp.org/curriculum/labs/flower.jpg"
+      alt="Beautiful pink flower close-up"
+    />
+    <p class="full-name">Deepa G</p>
+    <p class="designation">Software Developer</p>
+    <p class="company">OpenAI</p>
+
+    <hr />
+
+    <p>venu@example123.com</p>
+    <p>+91-9049567802</p>
+    <a href="https://your-portfolio-link.com" target="_blank">Portfolio</a>
+
+    <hr />
+
+    <div class="social-media">
+      <h2>Connect with me</h2>
+      <a href="https://twitter.com" target="_blank">Twitter</a>
+      <a href="https://linkedin.com" target="_blank">LinkedIn</a>
+      <a href="https://github.com" target="_blank">GitHub</a>
+    </div>
+  </div>
+</body>
+</html>
+
+
+** end of index.html **
+
+** start of styles.css **
+
+/* General styles */
+body {
+  background-color: rosybrown;
+  font-family: Arial, sans-serif;
+}
+
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Business card styling */
+.business-card {
+  width: 300px;
+  background-color: white; /* You can choose another color */
+  padding: 20px;
+  margin: 100px auto;
+  text-align: center;
+  font-size: 16px;
+}
+
+/* Profile image */
+.profile-image {
+  max-width: 100%;
+}
+
+/* Social media section */
+.social-media {
+  margin-top: 15px;
+}
+
+.social-media a {
+  display: block;
+  margin-top: 5px;
+}
+
+
+** end of styles.css **
+

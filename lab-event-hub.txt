@@ -1,0 +1,60 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Hub</title>
+</head>
+<body>
+
+  <header>
+    <h1>Event Hub</h1>
+    <nav>
+      <ul>
+        <li><a href="#upcoming-events">Upcoming Events</a></li>
+        <li><a href="#past-events">Past Events</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Upcoming Events Section -->
+    <section id="upcoming-events">
+      <h2>Upcoming Events</h2>
+
+      <article>
+        <h3>Spring Tech Conference</h3>
+        <p>Join industry leaders for a full day of tech talks and networking. <br> Date: July 20, 2025</p>
+      </article>
+
+      <article>
+        <h3>Developer Meetup 2025</h3>
+        <p>A casual meetup for developers to share projects and ideas. <br> Date: August 15, 2025</p>
+      </article>
+    </section>
+
+    <!-- Past Events Section -->
+    <section id="past-events">
+      <h2>Past Events</h2>
+
+      <article>
+        <h3>Winter Coding Bootcamp</h3>
+        <p>A week-long bootcamp focused on full-stack web development. <br> Date: January 2025</p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event1.jpg" alt="Participants at Winter Coding Bootcamp">
+      </article>
+
+      <article>
+        <h3>AI Innovations Summit</h3>
+        <p>An in-depth look into the future of AI and machine learning. <br> Date: March 2025</p>
+        <img src="https://cdn.freecodecamp.org/curriculum/labs/past-event2.jpg" alt="Speakers presenting at AI Innovations Summit">
+      </article>
+    </section>
+  </main>
+
+</body>
+</html>
+
+
+** end of index.html **
+

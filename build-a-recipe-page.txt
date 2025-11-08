@@ -1,0 +1,32 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Chicken curry</title>
+    <meta charset="UTF-8" >
+  </head>
+  <body>
+    <h1>Chicken Curry</h1>
+      <p>Chicken curry is a delicious, spicy dish made with tender chicken simmered in a rich, aromatic gravy. It's a comforting favorite enjoyed with rice or bread across many cultures.</p>
+    <h2>Ingredients</h2>
+    <ul>
+      <li>Chicken</li>
+      <li>Onions</li>
+      <li>Tomatoes</li>
+      <li>Spices</li>
+    </ul>
+    <h2>Instructions</h2>
+    <ol>
+      <li>Sauté onions and spices – Heat oil, cook chopped onions until golden, then add ginger, garlic, and spices.</li>
+      <li>Add tomatoes – Stir in chopped tomatoes and cook until soft and oil separates.</li>
+<li>Cook chicken – Add chicken pieces and cook until browned and coated with masala.</li>
+<li>Simmer and finish – Add water, cover, and simmer until chicken is tender; garnish and serve.</li>
+    </ol>
+    <img src="https://cdn.pixabay.com/photo/2021/07/29/12/43/curry-6507120_1280.jpg" alt ="chicken curry">
+
+  </body>
+  </html>
+
+** end of index.html **
+

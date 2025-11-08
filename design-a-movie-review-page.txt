@@ -1,0 +1,40 @@
+** start of index.html **
+
+<!DOCTYPE html>
+ <html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Movie Review</title>
+ </head>
+<body>
+    <main>
+     <h1>Movie Review</h1>
+     <img src="https://cdn.freecodecamp.org/curriculum/labs/rise-beyond-2.png" alt="A poster of movie name rise beyond with the chapter ethan">
+     <p>In a neon-lit future, a lone humanoid robot stands tall above a sprawling sci-fi city, gazing into the horizon.
+Surrounded by glowing skyscrapers and flying vehicles, it symbolizes the dawn of a new era.
+A moment of silence before the rise — not of machines, but of purpose beyond limits.</p>
+<p>
+    <strong>Movie Rating:</strong>
+    <span aria-hidden="true">⭐⭐⭐⭐⭐⭐⭐⭐⭐☆</span>(9.2/10)
+</p>
+<h2>Cast Members</h2>
+<ul>
+    <li><strong>James Holloway</strong> as Ethan Carter</li>
+      <li><strong>Ava Lin</strong> as Dr. Mara Voss</li>
+      <li><strong>Leo Ramirez</strong> as Commander Nyx</li>
+      <li><strong>Nora Tanaka</strong> as Unit R-7</li>
+      <li><strong>Samuel Grant</strong> as The Architect</li>
+</ul>
+
+ </main>
+ 
+
+    
+
+</body>
+
+</html>
+
+** end of index.html **
+

@@ -1,0 +1,91 @@
+** start of index.html **
+
+<!-- file: index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="blog-post-card">
+        <img class="post-img" src="https://cdn.freecodecamp.org/curriculum/labs/cover-photo.jpg" alt="Cover Photo" width="250" height="150">
+        <div class="post-content">
+            <h2 class="post-title">Learning web development with freeCodeCamp</h2>
+            <p class="post-excerpt">I like learning development my dream is working in IT company</p>
+            <a class="read-more">Read More</a>
+        </div>
+    </div>
+
+</body>
+</html>
+            <a class="read-more">Read More</a>
+        </div>
+    </div>
+
+</body>
+</html>
+
+** end of index.html **
+
+** start of styles.css **
+
+/* file: styles.css */
+.blog-post-card {
+    border: 2px dashed;
+    border-radius: 20%;
+    border-color: rosybrown;
+    background: white;
+    text-align: center;
+    margin: auto;
+    width: 350px;
+    height: auto;
+  }
+  
+.post-img {
+      margin-top: 15px;
+      margin-bottom: 10px; 
+      width: 100%;
+      border: 2px dashed;
+      border-color: aquamarine;
+      border-radius: 20%;
+      border-bottom: 10px solid;
+  }
+.post-content {
+    text-align: center;
+    padding: 15px;
+    margin-top: 10px;
+}
+.post-title {
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    margin-right: 10%;
+    color: darkblue;
+}  
+.post-excerpt {
+    margin-top: 5px;
+    margin-left: 5%;
+    margin-bottom: 10px;
+    margin-right: 5%;
+    color: brown;
+}
+.read-more {
+    color: black;
+    background-color: aqua;
+    margin: 10px;
+    display: inline-block;
+    border: 3px;
+    border-radius: 10%;
+    padding: 10px;
+}
+.read-more:hover{
+    color: red;
+    background-color: blueviolet;
+}
+
+
+** end of styles.css **
+

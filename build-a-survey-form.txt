@@ -1,0 +1,80 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Survey Form</title>
+</head>
+<body>
+  <h1 id="title">Survey Form</h1>
+  <p id="description">Please fill out the form below to participate in the survey.</p>
+
+  <form id="survey-form">
+    <!-- Name -->
+    <label id="name-label" for="name">Name:</label><br />
+    <input
+      type="text"
+      id="name"
+      name="name"
+      required
+      placeholder="Enter your full name"
+    /><br /><br />
+
+    <!-- Email -->
+    <label id="email-label" for="email">Email:</label><br />
+    <input
+      type="email"
+      id="email"
+      name="email"
+      required
+      placeholder="Enter your email address"
+    /><br /><br />
+
+    <!-- Number -->
+    <label id="number-label" for="number">Age:</label><br />
+    <input
+      type="number"
+      id="number"
+      name="age"
+      min="10"
+      max="100"
+      placeholder="Enter your age"
+    /><br /><br />
+
+    <!-- Dropdown -->
+    <label for="dropdown">Choose your role:</label><br />
+    <select id="dropdown" name="role">
+      <option value="">Select one</option>
+      <option value="student">Student</option>
+      <option value="professional">Professional</option>
+    </select><br /><br />
+
+    <!-- Radio Buttons -->
+    <p>Would you recommend this survey to a friend?</p>
+    <label><input type="radio" name="recommend" value="yes" /> Yes</label><br />
+    <label><input type="radio" name="recommend" value="no" /> No</label><br /><br />
+
+    <!-- Checkboxes -->
+    <p>Select your favorite topics:</p>
+    <label><input type="checkbox" name="topics" value="html" /> HTML</label><br />
+    <label><input type="checkbox" name="topics" value="css" /> CSS</label><br />
+    <label><input type="checkbox" name="topics" value="javascript" /> JavaScript</label><br /><br />
+
+    <!-- Textarea -->
+    <label for="comments">Any additional comments?</label><br />
+    <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Write your comments here..."></textarea><br /><br />
+
+    <!-- Submit Button -->
+    <button type="submit" id="submit">Submit</button>
+  </form>
+</body>
+</html>
+
+
+  
+
+
+** end of index.html **
+

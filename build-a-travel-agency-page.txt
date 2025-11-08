@@ -1,0 +1,50 @@
+** start of index.html **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Agency Page</title>
+  <meta name="description" content="This travel agency page offers exciting tour packages, travel planning, and booking services. Discover destinations, compare deals, and start your journey with ease.">
+</head>
+<body>
+
+  <h1>Travel Destinations</h1>
+  <p>Explore breathtaking travel destinations around the world, from tropical beaches and vibrant cities to serene mountains and cultural landmarks. Find your perfect getaway and create unforgettable memories.</p>
+
+  <h2>Packages</h2>
+  <p>Our travel packages are designed to suit every budget and interest, offering all-inclusive deals that cover flights, accommodations, sightseeing, and more. Enjoy a hassle-free vacation with customized itineraries and great value.</p>
+
+  <ul>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Group Travels</a></li>
+    <li><a href="https://www.freecodecamp.org/learn" target="_blank">Private Tours</a></li>
+  </ul>
+
+  <h2>Top Itineraries</h2>
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/colosseo.jpg" alt="The Colosseum in Rome">
+    </a>
+    <figcaption>The Colosseum, Rome</figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/alps.jpg" alt="The Alps mountains">
+    </a>
+    <figcaption>The Alps Mountains</figcaption>
+  </figure>
+
+  <figure>
+    <a href="https://www.freecodecamp.org/learn" target="_blank">
+      <img src="https://cdn.freecodecamp.org/curriculum/labs/sea.jpg" alt="A serene sea view">
+    </a>
+    <figcaption>Serene Sea View</figcaption>
+  </figure>
+
+</body>
+</html>
+
+
+** end of index.html **
+
